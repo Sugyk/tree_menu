@@ -1,0 +1,6 @@
+<a href="{{ root.url }}" style="margin-left: {{ root.space }}px;">{{ root.name }}</a>
+{% for item in tree %}
+    <div>   
+        <a href="{{ item.url }}" style="margin-left: {{ item.space }}px;">{{ item.name }}</a>
+    </div>
+{% endfor %}
