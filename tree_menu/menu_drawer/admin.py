@@ -1,3 +1,9 @@
 from django.contrib import admin
+from .models import Folder
+from .forms import AdminMenuForm
 
-# Register your models here.
+
+@admin.register(Folder)
+class MenuAdmin(admin.ModelAdmin):
+    form = AdminMenuForm
+
