@@ -1,8 +1,9 @@
 # Tree Menu
+###### Python 3.11.0
 ---
  __Installing__
 ```bash
-# клоинруем репозиторий и создаем виртуальное окружение
+# клонируем репозиторий и создаем виртуальное окружение
 $ git clone https://github.com/Sugyk/tree_menu.git
 $ cd tree_menu
 $ python -m venv venv
